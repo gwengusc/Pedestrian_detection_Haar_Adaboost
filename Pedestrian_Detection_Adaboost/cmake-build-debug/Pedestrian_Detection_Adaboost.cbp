@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Pedestrian_Detection_Adaboost"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\opencv-2.4.13\;CMake Files\..\..\opencv-2.4.13\release\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pedestrian_Detection_Adaboost">
+				<Option output="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Pedestrian_Detection_Adaboost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv@2/2.4.13.2_2/include"/>
+					<Add directory="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/release"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/include/opencv"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/core/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/flann/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/imgproc/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/highgui/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/features2d/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/calib3d/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ml/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/video/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/legacy/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/objdetect/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/photo/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/gpu/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ocl/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/nonfree/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/contrib/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/stitching/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/superres/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ts/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/videostab/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pedestrian_Detection_Adaboost"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Pedestrian_Detection_Adaboost/fast">
+				<Option output="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Pedestrian_Detection_Adaboost" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/Cellar/opencv@2/2.4.13.2_2/include"/>
+					<Add directory="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/release"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/include/opencv"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/core/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/flann/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/imgproc/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/highgui/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/features2d/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/calib3d/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ml/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/video/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/legacy/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/objdetect/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/photo/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/gpu/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ocl/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/nonfree/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/contrib/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/stitching/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/superres/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/ts/include"/>
+					<Add directory="/Users/wengguifan/opencv-2.4.13/modules/videostab/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 Pedestrian_Detection_Adaboost/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/include/Pedestrian_Detection_Adaboost_Detector.hpp">
+			<Option target="Pedestrian_Detection_Adaboost"/>
+		</Unit>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/main.cpp">
+			<Option target="Pedestrian_Detection_Adaboost"/>
+		</Unit>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/../../opencv-2.4.13/release/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-2.4.13\release\"/>
+		</Unit>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/../../opencv-2.4.13/release/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-2.4.13\release\"/>
+		</Unit>
+		<Unit filename="/Users/wengguifan/CLionProjects/Pedestrian_Detection_Adaboost/../../opencv-2.4.13/release/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\opencv-2.4.13\release\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

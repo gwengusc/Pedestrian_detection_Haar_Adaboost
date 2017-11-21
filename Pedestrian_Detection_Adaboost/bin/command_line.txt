@@ -1,0 +1,3 @@
+./opencv_createsamples -info pos.txt -vec pos_samples_vec -num 3494 -w 32 -h 64
+
+./opencv_traincascade -data model -vec pos_samples.vec -bg neg.txt -numPos 2000 -numNeg 4000 -numStages 15 -w 32 -h 64 -minHitRate 0.95 -maxFalseAlarmRate 0.5 -mode ALL
